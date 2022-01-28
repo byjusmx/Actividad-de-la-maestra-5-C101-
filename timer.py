@@ -1,7 +1,7 @@
-# import the time module
+# importa el módulo time
 import time
   
-# define the countdown timer function
+# define la función de conteo countdown timer 
 def countdown_timer(seconds):
     
     while seconds > 0:       
@@ -15,11 +15,11 @@ def countdown_timer(seconds):
         
         seconds -= 1
       
-    print('Time Up!')
+    print('¡Se acabó el tiempo!')
   
   
 # input time in seconds
-seconds = input("Enter the time in number of seconds: ")
+seconds = input("Ingresa el tiempo en segundos: ")
   
 # function call
 countdown_timer(int(seconds))
